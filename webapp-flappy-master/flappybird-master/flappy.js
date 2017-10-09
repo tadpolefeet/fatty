@@ -18,7 +18,7 @@ var label = "<---Highscore!";
 var labelHScore = "";
 var label2 = "";
 
-var gapSize = 90;
+var gapSize = 85;
 var gapMargin = 50;
 var blockHeight = 50;
 var height = game.height;
