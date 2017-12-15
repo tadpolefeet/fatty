@@ -72,7 +72,7 @@ label2 = game.add.text(20, 20, "Space to play!");
 player = game.add.sprite(150, 200, "flappy");
 player2 = game.add.sprite(100, 200, "player2");
 
-oneplayer = game.add.button(0, 0, 100, 100);
+
 
 
 game.physics.arcade.enable(player);
