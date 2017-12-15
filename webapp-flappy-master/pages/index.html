@@ -50,7 +50,7 @@ var flakes = [],    canvas = document.getElementById("canvas"),    ctx = c
     canvas.width = window.innerWidth;
 canvas.height = 300
 canvas.height = window.innerHeight;
-  flakeCount = (canvas.width*canvas.height)/400;
+  flakeCount = (canvas.width*canvas.height)/500;
 
 function snow() {    ctx.clearRect(0, 0, canvas.width, canvas.height);
     for (var i = 0; i < flakeCount; i++) {        var flake = flakes[i],            x = mX,            y = mY,            minDist = 150,            x2 = flake.x,            y2 = flake.y;
