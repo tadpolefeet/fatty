@@ -126,11 +126,11 @@ player2.rotation = Math.atan(player2.body.velocity.y / 300);
   gameOver);
 
 
-if(player.y) > 400){gameOver();}
+if(player.y > 400){gameOver();}
 else if(player.y < 0) {gameOver();}
 
 if(player2.y > 400) {gameOver();}
-else if(layer2.y < 0) {gameOver();}
+else if(player2.y < 0) {gameOver();}
 
 
 }
