@@ -130,7 +130,7 @@ if(player.y) > 400){gameOver();}
 else if(player.y < 0) {gameOver();}
 
 if(player2.y > 400) {gameOver();}
-else if(-10 < player2.y < 0) {gameOver();}
+else if(layer2.y < 0) {gameOver();}
 
 
 }
@@ -154,12 +154,7 @@ addPipeEnd(width-2.25, gapStart-25);
 }
 
 
-function oneplayer(){
 
-player2.y = -21;
-  game.physics.arcade.enable(player2);
-
-}
 
 function addPipeBlock(x, y) {
     var block = game.add.sprite(x,y,"pipeBlock");
