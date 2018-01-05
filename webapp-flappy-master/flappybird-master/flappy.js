@@ -179,6 +179,8 @@ function onePlayer(){
   game.physics.arcade.disable(player2);
   player2.y = -50;
 
+}
+  
 function playerJump() {
 
 player.body.velocity.y = -170 ;
