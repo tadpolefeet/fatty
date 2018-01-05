@@ -130,7 +130,8 @@ if(player.y > 400){gameOver();}
 else if(player.y < 0) {gameOver();}
 
 if(player2.y > 400) {gameOver();}
-else if(player2.y < 0) {gameOver();}
+else if(player2.y < 0) {
+  if(player2.y > -30){gameOver();}}
 
 
 }
