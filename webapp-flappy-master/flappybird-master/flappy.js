@@ -176,7 +176,7 @@ function addPipeBlock(x, y) {
 
 function onePlayer(){
   
-  game.physics.arcade.disable(player2);
+  player2.body.moves = false 
   player2.y = -50;
 
 }
