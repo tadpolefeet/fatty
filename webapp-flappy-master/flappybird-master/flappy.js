@@ -176,7 +176,7 @@ function addPipeBlock(x, y) {
 
 function onePlayer(){
   
-  player2.body.moves = false 
+  player2.exists = false 
   player2.y = -50;
 
 }
